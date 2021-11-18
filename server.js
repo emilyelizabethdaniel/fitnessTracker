@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://emilyelizabethdaniel:4xkbL3Z8YMmH-UF@cluster0.ye2wb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"|| "mongodb://localhost/workout", {
+mongoose.connect("mongodb://localhost/workout", {
     useNewUrlParser: true,
     useFindAndModify: false
 });
